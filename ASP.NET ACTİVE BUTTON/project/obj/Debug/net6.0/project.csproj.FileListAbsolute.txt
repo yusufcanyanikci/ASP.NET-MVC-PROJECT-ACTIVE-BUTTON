@@ -1,0 +1,83 @@
+D:\Uber Import\project\bin\Debug\net6.0\appsettings.Development.json
+D:\Uber Import\project\bin\Debug\net6.0\appsettings.json
+D:\Uber Import\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+D:\Uber Import\project\bin\Debug\net6.0\project.exe
+D:\Uber Import\project\bin\Debug\net6.0\project.deps.json
+D:\Uber Import\project\bin\Debug\net6.0\project.runtimeconfig.json
+D:\Uber Import\project\bin\Debug\net6.0\project.dll
+D:\Uber Import\project\bin\Debug\net6.0\project.pdb
+D:\Uber Import\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+D:\Uber Import\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uber Import\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+D:\Uber Import\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+D:\Uber Import\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+D:\Uber Import\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+D:\Uber Import\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+D:\Uber Import\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+D:\Uber Import\project\obj\Debug\net6.0\staticwebassets.build.json
+D:\Uber Import\project\obj\Debug\net6.0\staticwebassets.development.json
+D:\Uber Import\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Uber Import\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+D:\Uber Import\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+D:\Uber Import\project\obj\Debug\net6.0\project.dll
+D:\Uber Import\project\obj\Debug\net6.0\refint\project.dll
+D:\Uber Import\project\obj\Debug\net6.0\project.pdb
+D:\Uber Import\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+D:\Uber Import\project\obj\Debug\net6.0\ref\project.dll
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\appsettings.Development.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\appsettings.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\project.exe
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\project.deps.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\project.runtimeconfig.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\project.dll
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\bin\Debug\net6.0\project.pdb
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets\msbuild.build.project.props
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.project.props
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.project.props
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets.build.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\staticwebassets.development.json
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.dll
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\refint\project.dll
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.pdb
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+E:\Atölye Dersleri\ASP.NET\LaslesVPN\project\obj\Debug\net6.0\ref\project.dll
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\appsettings.Development.json
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\appsettings.json
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\project.staticwebassets.runtime.json
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\project.exe
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\project.deps.json
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\project.runtimeconfig.json
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\project.dll
+G:\asp-laslesVPN-main\project\bin\Debug\net6.0\project.pdb
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.csproj.AssemblyReference.cache
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.GeneratedMSBuildEditorConfig.editorconfig
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.AssemblyInfoInputs.cache
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.AssemblyInfo.cs
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.csproj.CoreCompileInputs.cache
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.MvcApplicationPartsAssemblyInfo.cache
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cache
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.RazorAssemblyInfo.cs
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\staticwebassets.build.json
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\staticwebassets.development.json
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\scopedcss\bundle\project.styles.css
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\scopedcss\projectbundle\project.bundle.scp.css
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.dll
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\refint\project.dll
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.pdb
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\project.genruntimeconfig.cache
+G:\asp-laslesVPN-main\project\obj\Debug\net6.0\ref\project.dll

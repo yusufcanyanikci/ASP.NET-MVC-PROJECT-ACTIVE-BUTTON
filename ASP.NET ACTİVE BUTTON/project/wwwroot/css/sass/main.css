@@ -1,0 +1,62 @@
+.btn-default {
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  background-color: #f53838;
+  border-color: #fff;
+}
+.btn-default:hover {
+  color: #000;
+}
+
+.btn-green {
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  background-color: #04c263;
+  border-color: #fff;
+}
+.btn-green:hover {
+  color: #910fc5;
+}
+
+.btn-light {
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #1c1c1c;
+  text-decoration: none;
+  font-weight: 400;
+  background-color: #d8d8d8;
+  border-color: #fff;
+}
+.btn-light:hover {
+  color: #000;
+}
+
+.green-box {
+  border-radius: 25px;
+  border: 1px solid #2a792a;
+  box-shadow: 0 0 25px #6fcd6f;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.blue-box {
+  border-radius: 25px;
+  border: 1px solid #0c54c6;
+  box-shadow: 0 0 25px #74a7f7;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */

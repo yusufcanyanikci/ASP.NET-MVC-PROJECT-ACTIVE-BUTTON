@@ -1,0 +1,51 @@
+@mixin btn($borderColor, $textColor, $bgColor, $hoverColor:#000) {
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    border-radius: 25px;
+    padding:10px 20px;
+    color:$textColor;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: $bgColor;
+    border-color: $borderColor;
+    &:hover {
+        color: $hoverColor
+    }
+
+}
+
+.btn-default {
+    @include btn(#fff, #fff, #f53838);
+   
+}
+
+
+.btn-green {
+    @include btn(#fff, #fff, #04c263,#910fc5 );
+}
+
+.btn-light {
+    @include btn(#fff, #1c1c1c, #d8d8d8);
+}
+
+
+// .btn {
+//     font-weight: 500;
+//     font-family: "Rubik", sans-serif;
+// }
+
+// .btn-outline-danger {
+//     color: #f53838;
+// }
+
+// .border-danger {
+//     border-color: #f53838;
+// }
+
+// .btn-danger {
+//     background-color: #f53838;
+// }
+
+// .btn-outline-danger:hover {
+//     background-color: #f53838;
+// }

@@ -1,0 +1,18 @@
+@mixin ShadowBox($borderColor, $size) {
+    border-radius: 25px;
+    border: 1px solid $borderColor;
+    box-shadow: 0 0 $size lighten($borderColor, 30);
+    margin:20px;
+}
+
+.green-box {
+    @include ShadowBox(#2a792a, 25px);
+    width: 250px;
+    height: 250px;
+}
+
+.blue-box {
+    @include ShadowBox(#0c54c6, 25px);
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - project</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/project.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg py-3">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" asp-controller="Home" asp-action="Index"><img src="~/img/logo.svg" alt="" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 fs-6 p-2">
+                                <li class="nav-item">
+                                    <a class='nav-link mx-2 @(ViewData["Title"]=="About"? " bg-info text-white"  :"text-black")'aria-current="page" asp-controller="Home" asp-action="Index">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class='nav-link mx-2 @(ViewData["Title"]=="Features"? " bg-info text-white"  :"text-black")' asp-controller="Home" asp-action="Features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class='nav-link mx-2 @(ViewData["Title"]=="Pricing"? " bg-info text-white"  :"text-black")' aria-current="page" asp-controller="Home" asp-action="Pricing">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class='nav-link mx-2 @(ViewData["Title"]=="Testimonials"? " bg-info text-white"  :"text-black")' asp-controller="Home" asp-action="Testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class='nav-link mx-2 @(ViewData["Title"]=="Help"? " bg-info text-white"  :"text-black")' asp-controller="Home" asp-action="Help">Help</a>
+                                </li>
+                            </ul>
+
+                            <button class="btn border border-0 me-3">Sign In</button>
+                            <button class="btn btn-outline-danger rounded rounded-5 py-2 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            @RenderBody()
+
+            <div class="row mb-5">
+                <div class="col-xl-6 py-5">
+                    <h1 class="title fs-50 fw-bold my-2 mb-3">
+                        Want anything to be easy with <strong>LaslesVPN.</strong>
+                    </h1>
+                    <p class="text py-2">
+                        Provide a network for all your needs with ease and fun using
+                        <span class="fw-strong">LaslesVPN</span> discover interesting features from us.
+                    </p>
+                    <button class="btn btn-danger py-3 px-5 btn-shadow">
+              Get Started
+            </button>
+                </div>
+                <div class="col-xl-6">
+                    <img src="~/img/illustration-1.svg" class="img-fluid" />
+                </div>
+            </div>
+            <div class="row box-shadow py-5 mb-5">
+                <div class="col-xl-4 px-2 d-flex justify-content-center">
+                    <div class="box d-flex">
+                        <div class="img-holder w-50">
+                            <img src="~/img/user-icon.svg" class="img-fluid" alt="" />
+                        </div>
+                        <div class="card-body w-50 d-flex flex-wrap justify-content-center align-items-center">
+                            <h5 class="text text-center">90+</h5>
+                            <p class="text text-center">Users</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 d-flex justify-content-center border-1 border-end border-start px-2">
+                    <div class="box d-flex">
+                        <div class="img-holder w-50">
+                            <img src="~/img/location-icon.svg" class="img-fluid" alt="" />
+                        </div>
+                        <div class="card-body w-50 d-flex flex-wrap justify-content-center align-items-center">
+                            <h5 class="text text-center">30+</h5>
+                            <p class="text text-center">Locations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 px-2 d-flex justify-content-center">
+                    <div class="box d-flex">
+                        <div class="img-holder w-50">
+                            <img src="~/img/server-icon.svg" class="img-fluid" alt="" />
+                        </div>
+                        <div class="card-body w-50 d-flex flex-wrap justify-content-center align-items-center">
+                            <h5 class="text text-center">50+</h5>
+                            <p class="text text-center">Server</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="row py-5 mb-5">
+                <div class="col-xl-6">
+                    <img src="~/img/illustration-2.svg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-xl-6 px-5 d-flex justify-content-end flex-column">
+                    <div class="titles">
+                        <h2 class="title fs-1 my-2 mb-3 pe-5">We Provide Many Features You Can Use</h2>
+                        <p class="text py-2">You can explore the features that we provide with fun and have their own functions each feature.</p>
+                    </div>
+                    <div class="title-content d-flex flex-column flex-wrap">
+                        <span class="d-block text"><i class="fa-solid fa-circle-check check-item text-success fs-5"></i> Powerfull online protection.</span>
+                        <span class="d-block text"><i class="fa-solid fa-circle-check check-item text-success fs-5"></i> Internet without borders.</span>
+                        <span class="d-block text"><i class="fa-solid fa-circle-check check-item text-success fs-5"></i> Supercharged VPN</span>
+                        <span class="d-block text"><i class="fa-solid fa-circle-check check-item text-success fs-5"></i> No specific time limits.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row mb-5 p-5">
+                <div class="col-xl-12 text-center mb-5">
+                    <h2 class="title fw-strong">Choose Your Plan</h2>
+                    <span class="text">Let's choose the package that is best for you and explore it happily and cheerfully.</span>
+                </div>
+
+                <!-- <div class="col-xl-4">
+                        <div class="card d-flex align-items-center justify-content-center">
+                            <img src="~/img/free-plan.svg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="card">
+                            <img src="~/img/standard-plan.svg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="card">
+                            <img src="~/img/premium-plan.svg" class="card-img-top w-50" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                <div class="box col-xl-4 my-3 my-xl-0" style="height: 700px;">
+                    <div class="box-inner h-100 d-flex flex-column align-items-center align-content-center justify-content-between flex-wrap p-5 border border-2 border-secondary border-opacity-25 rounded-2">
+                        <img src="~/img/free-plan.svg" class="img-fluid w-50" alt="">
+                        <h5>Free Plan</h5>
+                        <div class="box-content">
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Unlimited Bandwitch</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Encrypted Connection</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> No Traffic Logs</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Works on All Devices</p>
+                        </div>
+                        <h5>Free</h5>
+                        <button class="btn btn-outline-danger rounded rounded-5 py-2 px-5">Select</button>
+                    </div>
+                </div>
+                <div class="box col-xl-4 my-3 my-xl-0" style="height: 700px;">
+                    <div class="box-inner h-100 d-flex flex-column align-items-center align-content-center justify-content-between flex-wrap p-5 border border-2 border-secondary border-opacity-25 rounded-2">
+                        <img src="~/img/standard-plan.svg" class="img-fluid w-50" alt="">
+                        <h5>Standard Plan</h5>
+                        <div class="box-content">
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Unlimited Bandwitch</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Encrypted Connection</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> No Traffic Logs</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Works on All Devices</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Connect Anyware</p>
+                        </div>
+                        <h5>$9 / mo</h5>
+                        <button class="btn btn-outline-danger rounded rounded-5 py-2 px-5">Select</button>
+                    </div>
+                </div>
+                <div class="box col-xl-4 my-3 my-xl-0" style="height: 700px;">
+                    <div class="box-inner h-100 d-flex flex-column align-items-center align-content-center justify-content-between flex-wrap p-5 border border-2 border-danger border-opacity-100 rounded-2">
+                        <img src="~/img/premium-plan.svg" class="img-fluid w-50" alt="">
+                        <h5>Premium Plan</h5>
+                        <div class="box-content">
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Unlimited Bandwitch</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Encrypted Connection</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> No Traffic Logs</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Works on All Devices</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Connect Anyware</p>
+                            <p><i class="fa-solid fa-check text-success fs-5"></i> Get New Features</p>
+                        </div>
+                        <h5>$12 / mo</h5>
+                        <button class="btn btn-danger rounded rounded-5 py-2 px-5">Select</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********** MODAL ********** -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Kayıt Ol</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" id="forms" method="get">
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label class="form-label white">Ad *</label>
+                                    <input class="form-control" type="text" id="txtFirstrname" />
+                                    <small>İsim boş bırakılamaz.</small>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label white">Soyad *</label>
+                                    <input class="form-control" type="text" name="txtLastname" id="txtLastname" />
+                                    <small>İsim boş bırakılamaz.</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-7">
+                                    <label class="form-label white">E-Posta *</label>
+                                    <input class="form-control" type="text" name="txtMail" id="txtMail" />
+                                    <small>İsim boş bırakılamaz.</small>
+                                </div>
+                                <div class="col-5">
+                                    <label class="form-label white">Yaş *</label>
+                                    <input class="form-control" type="text" name="txtAge" id="txtAge" />
+                                    <small class="overflow-visible">İsim boş bırakılamaz.</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label class="form-label white">Mesaj *</label>
+                                    <input class="form-control" type="text" name="txtMsg" id="txtMsg" />
+                                    <small>İsim boş bırakılamaz.</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const form = document.getElementById("forms");
+        const fname = document.getElementById("txtFirstrname");
+        const lname = document.getElementById("txtLastname");
+        const mail = document.getElementById("txtMail");
+        const age = document.getElementById("txtAge");
+        const msg = document.getElementById("txtMsg");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            checkInputs();
+        });
+
+        function checkInputs() {
+            const fnameValue = fname.value.trim();
+            const mailValue = mail.value.trim();
+            const lnameValue = lname.value.trim();
+            const ageValue = age.value.trim();
+            const msgValue = msg.value.trim();
+
+            if (fnameValue === "") {
+                Hata(fname, "Ad boş bırakılamaz.");
+            } else {
+                Basarili(fname);
+            }
+            if (lnameValue === "") {
+                Hata(lname, "Soyad boş bırakılamaz.");
+            } else {
+                Basarili(lname);
+            }
+            if (mailValue === "") {
+                Hata(mail, "E-Posta boş bırakılamaz.");
+            } else {
+                Basarili(mail);
+            }
+            if (msgValue === "") {
+                Hata(msg, "Mesaj boş bırakılamaz.");
+            } else {
+                Basarili(msg);
+            }
+            if (ageValue === "") {
+                Hata(age, "Yaş boş bırakılamaz.");
+            } else if (!/^[0-9]+$/.test(ageValue)) {
+                Hata(age, "Bir sayı giriniz!");
+            } else {
+                Basarili(age);
+            }
+
+            function Hata(input, message) {
+                const formControl = input;
+                const small = formControl.parentElement.querySelector("small");
+                small.innerText = message;
+                small.className = "error-message-active white";
+                formControl.className = "form-control error ";
+            }
+
+            function Basarili(input) {
+                const formControl = input;
+                formControl.className = "form-control success";
+                const small = formControl.parentElement.querySelector("small");
+                small.className = "";
+            }
+        }
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
